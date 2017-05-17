@@ -1,0 +1,33 @@
+{
+  "name": "react-styling-poc",
+  "version": "1.0.0",
+  "description": "Prove of concept for styling a react project",
+  "main": "index.js",
+  "dependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  "devDependencies": {
+    "react-scripts": "0.9.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justbrody/react-styling-poc.git"
+  },
+  "keywords": [
+    "react",
+    "styling"
+  ],
+  "author": "justbrody",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/justbrody/react-styling-poc/issues"
+  },
+  "homepage": "https://github.com/justbrody/react-styling-poc#readme"
+}
