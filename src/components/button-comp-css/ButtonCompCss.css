@@ -1,0 +1,9 @@
+
+.button-comp-css {
+  height:50px;
+  width:180px;
+}
+.button-comp-css:hover {
+  background-color:yellow;
+  color:red;  
+}
