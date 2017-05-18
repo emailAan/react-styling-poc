@@ -1,11 +1,9 @@
 import React, { Component } from 'react';
 import { StyleSheet, css } from 'aphrodite';
 
-class Button extends Component {
-    render() {
-        return (<button className={css(styles.button)}>Aphrodite button</button>
-        );
-    }
+const screens = {
+    small: "@media (max-width:1024px)",
+    large: "@media (min-width:1024px)"
 }
 
 const styles = StyleSheet.create(
@@ -16,9 +14,22 @@ const styles = StyleSheet.create(
             ":hover": {
                 backgroundColor: "yellow",
                 color: "red"
+            },
+            [screens.small]: {
+                fontSize: "small"
+            },
+            [screens.large]: {
+                fontSize: "large"
             }
         }
     }
 );
+
+class Button extends Component {
+    render() {
+        return (<button className={css(styles.button)}>Aphrodite button</button>
+        );
+    }
+}
 
 export default Button;

@@ -7,3 +7,14 @@
   background-color:yellow;
   color:red;  
 }
+@media screen and (max-width: 1024px) {
+    .button-comp-css {
+      font-size: small;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .button-comp-css {
+      font-size: large;
+    }
+}

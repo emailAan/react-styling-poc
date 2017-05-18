@@ -3,6 +3,11 @@ import Radium from 'radium';
 
 class Button extends Component {
 
+    screens = {
+        small: "@media (max-width:1024px)",
+        large: "@media (min-width:1024px)"
+    }
+
     styles = {
         button: {
             height: "50px",
@@ -10,6 +15,12 @@ class Button extends Component {
             ":hover": {
                 backgroundColor: "yellow",
                 color: "red"
+            },
+            [this.screens.small]: {
+                fontSize: "small"
+            },
+            [this.screens.large]: {
+                fontSize: "large"
             }
         }
     }

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { StyleRoot } from 'radium';
 
 import Button from './components/button-unstyled/Button';
 import ButtonOneCss from './components/button-one-css/ButtonOneCss';
@@ -14,21 +15,22 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
+      <StyleRoot>
+        <div className="App">
+          <div className="App-header">
+            <img src={logo} className="App-logo" alt="logo" />
+            <h2>Welcome to React</h2>
+          </div>
+          <p className="App-intro">
+            <Button />
+            <ButtonOneCss />
+            <ButtonCompCss />
+            <ButtonInline />
+            <ButtonRadium />
+            <ButtonAphrodite />
+          </p>
         </div>
-        <p className="App-intro">
-          <Button/>
-          <ButtonOneCss/>
-          <ButtonCompCss/>
-          <ButtonInline />
-          <ButtonRadium />
-          <ButtonAphrodite />
-        </p>
-      </div>
-    );
+      </StyleRoot>);
   }
 }
 
