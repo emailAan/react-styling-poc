@@ -1,20 +1,47 @@
 
-.button-comp-css {
+.react-styling-poc-ButtonCompCss-myButton {
   height:50px;
   width:180px;
 }
-.button-comp-css:hover {
+.react-styling-poc-ButtonCompCss-myButton:hover {
   background-color:yellow;
   color:red;  
 }
 @media screen and (max-width: 1024px) {
-    .button-comp-css {
+    .react-styling-poc-ButtonCompCss-myButton {
       font-size: small;
     }
 }
 
 @media screen and (min-width: 1024px) {
-    .button-comp-css {
+    .react-styling-poc-ButtonCompCss-myButton {
       font-size: large;
     }
+}
+
+@keyframes buttonAnimation {
+  0% {
+    background-color: red;
+    -ms-transform: rotate(7deg);
+    -webkit-transform: rotate(7deg);
+    transform: rotate(7deg);
+  }
+  25% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: blue;
+    -ms-transform: rotate(-7deg);
+    -webkit-transform: rotate(-7deg);
+    transform: rotate(-7deg);
+  }
+  100% {
+    background-color: green;
+  }
+}
+
+.react-styling-poc-ButtonCompCss-myButton {
+  animation-name: buttonAnimation;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
 }

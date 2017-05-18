@@ -1,12 +1,18 @@
 import React, { Component } from 'react';
+import { withPackageName } from 'react-pacomo';
+const { decorator } = withPackageName('react-styling-poc')
+
 
 import './ButtonCompCss.css';
 
 class ButtonCompCss extends Component {
+
   render() {
-    return (<button className="button-comp-css">Separate css file</button>
+    const btnClass = { "myButton": true };
+
+    return (<button className={btnClass}>Separate css file</button>
     );
   }
 }
 
-export default ButtonCompCss;
+export default decorator(ButtonCompCss);
