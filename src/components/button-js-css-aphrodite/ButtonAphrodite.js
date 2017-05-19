@@ -1,39 +1,18 @@
 import React, { Component } from 'react';
 import { StyleSheet, css } from 'aphrodite';
 
-const pulseKeyframes = {
-    "0%": {
-        backgroundColor: "red",
-        transform: "rotate(7deg)"
-    },
-    "25%": {
-        backgroundColor: "yellow"
-    },
-    "50%": {
-        backgroundColor: "blue",
-        transform: " rotate(-7deg)"
-    },
-    "100%": {
-        backgroundColor: "green"
-    }
-};
-
-const screens = {
-    small: "@media (max-width:1024px)",
-    large: "@media (min-width:1024px)"
-}
+import {screens, animations, colors} from '../../common/css';
 
 const styles = StyleSheet.create(
     {
         button: {
             height: "50px",
             width: "180px",
-            animationName: pulseKeyframes,
+            animationName: animations.freaky,
             animationDuration: "4s",
             animationIterationCount: "infinite",
             ":hover": {
-                backgroundColor: "yellow",
-                color: "red"
+                color: colors.primary
             },
             [screens.small]: {
                 fontSize: "small"

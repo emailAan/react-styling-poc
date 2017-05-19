@@ -10,7 +10,6 @@ body {
 }
 
 .button-one-css:hover {
-  background-color: yellow;
   color: red;
 }
 

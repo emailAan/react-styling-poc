@@ -4,7 +4,6 @@
   width:180px;
 }
 .react-styling-poc-ButtonCompCss-myButton:hover {
-  background-color:yellow;
   color:red;  
 }
 @media screen and (max-width: 1024px) {
