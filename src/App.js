@@ -28,7 +28,7 @@ class App extends Component {
             <ButtonInline />
             <ButtonRadium />
             <ButtonAphrodite />
-            <ButtonStyledComponents />
+            <ButtonStyledComponents>Styled Components</ButtonStyledComponents>
           </p>
         </div>
       </StyleRoot>)

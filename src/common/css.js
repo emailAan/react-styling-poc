@@ -13,19 +13,19 @@ export const colors = {
 
 export const animations = {
   freaky: {
-      '0%': {
-          backgroundColor: 'red',
-          transform: 'rotate(7deg)'
-        },
-      '25%': {
-          backgroundColor: 'yellow'
-        },
-      '50%': {
-          backgroundColor: 'blue',
-          transform: ' rotate(-7deg)'
-        },
-      '100%': {
-          backgroundColor: 'green'
-        }
+    '0%': {
+      backgroundColor: 'red',
+      transform: 'rotate(7deg)'
+    },
+    '25%': {
+      backgroundColor: 'yellow'
+    },
+    '50%': {
+      backgroundColor: 'blue',
+      transform: ' rotate(-7deg)'
+    },
+    '100%': {
+      backgroundColor: 'green'
     }
+  }
 }

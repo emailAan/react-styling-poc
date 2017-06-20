@@ -1,5 +1,7 @@
 import styled, { keyframes } from 'styled-components'
 
+import {screens, animations, colors} from '../../common/css'
+
 const buttonAnimation = keyframes`
   0% {
     background-color: red;
@@ -21,19 +23,23 @@ const buttonAnimation = keyframes`
   }
 `
 
+const ani = keyframes`${animations.freaky}`
+
+const justForDemo = true
+
 const Button = styled.button`
   height: 50px;
   width: 180px;
-  animation-name: ${buttonAnimation};
+  animation-name: ${justForDemo ? ani : buttonAnimation};
   animation-duration: 4s;
   animation-iteration-count: infinite;
   :hover {
-    color: red;
+    color: ${colors.primary};
   }
-  @media screen and (max-width: 1024px) {
+  ${screens.small} {
     font-size: small;
   }
-  @media screen and (min-width: 1024px) {
+  ${screens.large}  {
     font-size: large;
   }
 `
