@@ -19,6 +19,7 @@ In this Proof-Of-Concept I've tested out a the following possibilities to style 
 * Use standard inline style of react
 * Use library aphrodite [https://github.com/Khan/aphrodite]
 * Use library radium [https://formidable.com/open-source/radium/]
+* user library Styled Components [https://github.com/styled-components/]
 
 ## Comparing
 
