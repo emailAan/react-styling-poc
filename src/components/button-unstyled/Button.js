@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 
 class Button extends Component {
-  render() {
+  render () {
     return (<button>Unstyled button</button>
-    );
+    )
   }
 }
 
-export default Button;
+export default Button
