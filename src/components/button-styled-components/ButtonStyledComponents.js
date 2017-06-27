@@ -1,6 +1,6 @@
 import styled, { keyframes } from 'styled-components'
 
-import {screens, animations, colors} from '../../common/css'
+import { screens, animations, colors } from '../../common/css'
 
 const buttonAnimation = keyframes`
   0% {
@@ -20,12 +20,11 @@ const buttonAnimation = keyframes`
   }
   100% {
     background-color: green;
-  }
-`
-
-const ani = keyframes`${animations.freaky}`
+   }`
 
 const justForDemo = true
+
+const ani = keyframes`${animations.freaky || justForDemo}`
 
 const Button = styled.button`
   height: 50px;
