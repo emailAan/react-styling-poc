@@ -17,13 +17,9 @@ In this Proof-Of-Concept I've tested out a the following possibilities to style 
 
 ### Styling in Javascript
 * Use standard inline style of react
-* Use library aphrodite [https://github.com/Khan/aphrodite]
-* Use library radium [https://formidable.com/open-source/radium/]
-* user library Styled Components [https://github.com/styled-components/]
-
-## Comparing
-
-
+* Use library [aphrodite] (https://github.com/Khan/aphrodite)
+* Use library [radium] (https://formidable.com/open-source/radium/)
+* user library [Styled Components] (https://github.com/styled-components/)
 
 
 ## Related information
@@ -31,8 +27,8 @@ In this Proof-Of-Concept I've tested out a the following possibilities to style 
 ### Usefull libraries
 
 The tools below can help with structuring the css/classes
-* classnames [https://www.npmjs.com/package/classnames]
-* react-pacomo [https://github.com/unicorn-standard/react-pacomo]
+* [classnames] (https://www.npmjs.com/package/classnames)
+* [react-pacomo] (https://github.com/unicorn-standard/react-pacomo)
 
 
 The boilerplate create-react-app is used to create this app:
