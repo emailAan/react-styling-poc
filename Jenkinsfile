@@ -2,9 +2,9 @@ node {
   checkout scm
   stage('Install') {
     if (isUnix()) {
-      sh "npm install"
+      sh "yarn install"
     } else {
-      bat("npm install")
+      bat("yarn install")
     }
   }
   stage('Build') {
