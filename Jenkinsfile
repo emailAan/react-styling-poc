@@ -10,8 +10,6 @@ pipeline {
         }
 		  }
     }
-  }
-  stages {
     stage('Build') {
       steps {
         if (isUnix()) {
