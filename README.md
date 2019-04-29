@@ -1,4 +1,7 @@
 # react-styling-poc
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/justbrody/react-styling-poc.svg)](https://greenkeeper.io/)
+
 Testing the styling of react component in different ways to choise for a production app
 
 ## Installation
